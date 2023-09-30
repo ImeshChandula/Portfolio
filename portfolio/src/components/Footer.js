@@ -2,6 +2,7 @@ import "./FooterStyle.css"
 
 import React from 'react'
 import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa"
+import { NavLink } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -37,7 +38,10 @@ const Footer = () => {
                 <p>You can follow me on following social media.</p>
                 
                 <div className="social">
-                    <FaFacebook size={30} style={{color:"#fff", marginRight:"1rem"}} />
+                    <NavLink to="https://www.facebook.com/imesh.chandula.1/">
+                        <FaFacebook size={30} style={{color:"#fff", marginRight:"1rem"}} />
+                    </NavLink>
+                    
                     <FaTwitter size={30} style={{color:"#fff", marginRight:"1rem"}} />
                     <FaLinkedin size={30} style={{color:"#fff", marginRight:"1rem"}} />
                 </div>
