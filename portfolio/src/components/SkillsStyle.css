@@ -1,0 +1,90 @@
+.skill-heading{
+    width: 100%;
+    padding: 6rem 1rem;
+    background: #000;
+    justify-content: center;
+}
+
+.skill-head{
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.skill-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 40px;
+}
+
+.skill-left, .skill-right{
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: left;
+    padding: 1rem;
+}
+
+.skill-left:hover {
+    background-color: #141414;
+}
+
+.skill-right:hover {
+    background-color: #141414;
+}
+
+.skill-left h3, .skill-right h3{
+    font-size: 1.4rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.skill-left p, .skill-right p{
+    padding: 10px 0;
+}
+
+.skill-left .bar, .skill-right .bar{
+    border-bottom: 1px solid #eee;
+    width: 20%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.skill-left-part2 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); 
+    grid-gap: 2px;
+}
+
+.skill{
+    color: #eee;
+    text-align: left;
+    padding: 1rem;
+}
+
+.language{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.language p{
+    line-height: 10px;
+}
+
+.institute{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.institute p{
+    line-height: 20px;
+}
+
+
+@media screen and (max-width : 740px){
+    .skill-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
