@@ -43,7 +43,11 @@ const Footer = () => {
                     </NavLink>
                     
                     <FaTwitter size={30} style={{color:"#fff", marginRight:"1rem"}} />
-                    <FaLinkedin size={30} style={{color:"#fff", marginRight:"1rem"}} />
+                    
+                    <NavLink to="https://www.linkedin.com/in/imesh-chandula-601113256/">
+                        <FaLinkedin size={30} style={{color:"#fff", marginRight:"1rem"}} />
+                    </NavLink>
+                    
                 </div>
             </div>
 
