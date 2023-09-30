@@ -22,7 +22,7 @@ const ProjectCardData = [
         title: "Portfolio",
         text: "About this project",
         view: "",
-        source: ""
+        source: "https://github.com/ImeshChandula/Portfolio"
     }
 ];
 
