@@ -6,14 +6,14 @@ const ProjectCardData = [
     {
         imgSrc: project1,
         title: "User Input Form",
-        text: "About this project",
+        text: "This is a simple User Input Form created by 'HTML5' and 'CSS'.",
         view: "https://www.linkedin.com/posts/imesh-chandula-601113256_user-input-form-by-html-css-httpslnkdin-activity-7032022833929093120-TLrH?utm_source=share&utm_medium=member_desktop",
         source: "https://github.com/ImeshChandula/Login_form"
     },
     {
         imgSrc: project2,
         title: "System Resource Monitor",
-        text: "About this project",
+        text: "This is my first Software Project. I have created a System Resource monitor for Windows PC's. It is created by '.NetFramework' and 'C#'",
         view: "https://www.linkedin.com/posts/imesh-chandula-601113256_i-create-a-simple-resource-monitor-by-c-activity-7042642785610461184-7gkV?utm_source=share&utm_medium=member_desktop",
         source: "https://github.com/ImeshChandula/System-Resource-Monitor"
     },
