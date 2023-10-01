@@ -29,6 +29,7 @@ ul{
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 0px;
 }
 
 .btn-light{
@@ -40,6 +41,7 @@ ul{
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 0px;
 }
 
 .btn:hover {

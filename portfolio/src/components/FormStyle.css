@@ -6,7 +6,8 @@ label{
 form{
     display: flex;
     flex-direction: column;
-    padding: 4rem 1rem;
+    padding: 0rem 1rem;
+    padding-bottom: 4rem;
     margin: auto;
     max-width: 600px;
 }
@@ -18,4 +19,10 @@ form input, form textarea{
     background-color: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.1);
     color: #f4f4f4;
+}
+
+.form-head{
+    color: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
 }

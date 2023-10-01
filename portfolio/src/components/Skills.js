@@ -79,7 +79,7 @@ const Skills = () => {
                 <span className="bar"></span>
 
                 <div className="institute">
-                    <FaUniversity size={30} style={{color:"#fff", marginRight:"2rem"}}/>
+                    <FaUniversity size={40} style={{color:"#fff", marginRight:"2rem"}}/>
                     <p>Bachelor of Computer Science, Eastern University of Sri Lanka</p>
                 </div>
 
