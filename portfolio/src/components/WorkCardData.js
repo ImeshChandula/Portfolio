@@ -20,7 +20,7 @@ const ProjectCardData = [
     {
         imgSrc: project3,
         title: "Portfolio",
-        text: "About this project",
+        text: "This is simple React Project. Mainly use 'React-js' and 'CSS' for this project.",
         view: "",
         source: "https://github.com/ImeshChandula/Portfolio"
     }

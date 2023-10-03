@@ -32,6 +32,12 @@
     padding: 10px 0;
 }
 
+
+.download-cv{
+    text-align: center;
+    padding-top: 4rem;
+}
+
 @media screen and (max-width : 740px){
     .intro-container{
         max-width: 90%;
