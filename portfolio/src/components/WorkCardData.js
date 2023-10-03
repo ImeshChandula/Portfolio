@@ -21,7 +21,7 @@ const ProjectCardData = [
         imgSrc: project3,
         title: "Portfolio",
         text: "This is simple React Project. Mainly use 'React-js' and 'CSS' for this project.",
-        view: "",
+        view: "https://www.linkedin.com/posts/imesh-chandula-601113256_i-create-a-simple-portfolio-using-react-js-activity-7114870148469047296-QE1i?utm_source=share&utm_medium=member_desktop",
         source: "https://github.com/ImeshChandula/Portfolio"
     }
 ];
