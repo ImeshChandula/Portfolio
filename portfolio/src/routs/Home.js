@@ -6,6 +6,8 @@ import Work from '../components/Work'
 import Footer from '../components/Footer'
 import Skills from '../components/Skills'
 import Form from '../components/Form'
+import Introduction from '../components/Introduction'
+import PricingCard from '../components/PricingCard'
 
 const Home = () => {
   return (
@@ -13,8 +15,10 @@ const Home = () => {
         <NavBar />
         <HeroImg />
         <AboutContent />
+        <Introduction />
         <Skills />
         <Work />
+        <PricingCard />
         <Form />
         <Footer />
     </div>

@@ -80,6 +80,10 @@
     line-height: 20px;
 }
 
+.skill-container .bar{
+    width: 300px;
+}
+
 
 @media screen and (max-width : 740px){
     .skill-container{
