@@ -1,0 +1,41 @@
+.introduction{
+    width: 100%;
+    padding: 4rem 1rem;
+    background: #000;
+}
+
+.intro-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 40px;
+}
+
+.intro{
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+}
+
+.intro:hover {
+    background-color: #141414;
+}
+
+.intro h3{
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.intro p{
+    padding: 10px 0;
+}
+
+@media screen and (max-width : 740px){
+    .intro-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
